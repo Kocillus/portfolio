@@ -1,0 +1,108 @@
+body{
+    background-color: #252525;
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+    color: #EDEDED;
+}
+
+h1 {
+    color: #ff6a00;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+h3 {
+    color: #ff6a00; 
+    text-align: center;
+
+}
+
+h4 {
+    color: #ff6a00; 
+    text-align: center;
+    margin: 0px;
+}
+
+.header {
+
+    font-family: 'Helvetica';
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+div.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 150px;
+
+}
+
+img.socialmedia{
+    margin: 8px;
+    width: 25px;
+    height: 25px;
+  }
+
+div.about-me {
+    background-color: #343433;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #ff6a00;
+  }
+
+div.about-me-text {
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    color: #EDEDED;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+      margin: 20px 0px 0px 0px;
+      text-align: center;
+      font-size: 10px;
+      color: #A6A6A6;
+  }
+    footer a {
+        color: #ffffff;
+        text-decoration: none;}
+    footer a:hover {
+        color: #ff6a00;
+        text-decoration: none;}
+    footer a:focus {
+        color: #ff6a00;
+        text-decoration: none;}
