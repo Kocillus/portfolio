@@ -8,7 +8,7 @@ body{
 
 h1 {
     color: #ff6a00;
-    margin-bottom: 0px;
+    margin: 0px;
     font-size: 24px;
 }
 
@@ -26,17 +26,14 @@ h3 {
 h4 {
     color: #ff6a00; 
     text-align: center;
-    margin: 0px;
-}
-
-.header {
-
-    font-family: 'Helvetica';
+    margin: 10px;
 }
 
 .logo {
     width: 100px;
     height: 100px;
+    padding: 0px;
+    margin: 0px;
 }
 
 div.header {
@@ -44,14 +41,16 @@ div.header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px 150px;
+    margin: 100px 150px 75px 150px;
 
 }
 
 img.socialmedia{
     margin: 8px;
+    padding: 2px;
     width: 25px;
     height: 25px;
+    
   }
 
 div.about-me {
@@ -72,17 +71,36 @@ div.about-me-text {
 
 .projects {
     display: flex;
+    padding-top: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.column {
+.project1 {
     float: left;
-    display: inline;
     width: 300px;
     text-align: justify;
-    padding: 30px;
+    margin: 10px 10px 10px;
+    padding: 10px 15px 20px;
+    background-color: #343433;
+}
+
+.project2 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin: 10px 10px 10px;
+    padding: 10px 15px 20px;
+    background-color: #343433;
+}
+
+.project3 {
+    float: left;
+    width: 300px;
+    text-align: justify;
+    margin: 10px 10px 10px;
+    padding: 10px 10px 15px;
     background-color: #343433;
 }
 
