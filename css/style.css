@@ -83,7 +83,7 @@ div.about-me-text {
 }
 
 .whatdo-content-l {
-  width: 600px;
+  width: 800px;
   padding: 35px 0px 35px 200px;
 
 }
@@ -97,7 +97,7 @@ div.about-me-text {
 
 
 .whatdo-content-r {
-  width: 600px;
+  width: 800px;
   padding: 35px 200px 35px 0px;
 }
 
@@ -121,6 +121,10 @@ div.about-me-text {
 .projects h3,h2 {
     text-align: center;
     margin: auto;
+}
+
+.projects img{
+    width: 300px;
 }
 
 .project1 {
