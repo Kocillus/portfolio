@@ -72,7 +72,7 @@ div.about-me-text {
 
 .whatdo {
     padding-top: 60px;
-    display: block;
+    display: inline;
     margin: auto;
     width: 50%;
 }
@@ -83,8 +83,10 @@ div.about-me-text {
 }
 
 .whatdo-content-l {
-  width: 800px;
-  padding: 35px 0px 35px 200px;
+  width: 50%px;
+  padding: 0px 0px 15px 0px;
+  margin-left: 25%;
+  margin-right: 25%;
 
 }
 
@@ -97,8 +99,10 @@ div.about-me-text {
 
 
 .whatdo-content-r {
-  width: 800px;
-  padding: 35px 200px 35px 0px;
+    width: 50%px;
+    padding: 0px 0px 15px 0px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .whatdo-content-r img {
