@@ -1,7 +1,7 @@
 window.onload = function(){
 
 const pl=[".O MNIE", 
-"Hej, nazywam się Janek! Jestem studentem z Poznania, który w trakcie nauki złapał bakcyla na kodowanie. W chwilach wolnych od stukania w klawiaturę uwielbiam oddawać się sportowi, szczególnie sztuką walki oraz strzelectwu. Jedną z moich największych pasji jest tresura oraz behawiorystyka psów. Jestem również zapalonym górołazem i włóczykijem, niewykluczone że kiedyś minęliśmy się na szlaku! Aktualnie poszukuję pracy/stażu w miejscu, które pozwoli mi rozwijać swoje umiejętności oraz karierę. <b>:-)</b>", 
+"Hej, nazywam się Janek! Jestem studentem z Poznania, który w trakcie nauki złapał bakcyla na kodowanie. W chwilach wolnych od stukania w klawiaturę uwielbiam uprawiać sport, szczególnie sztuki walki oraz strzelectwo. Jedną z moich największych pasji jest tresura oraz behawiorystyka psów. Jestem również zapalonym górołazem i włóczykijem, niewykluczone że kiedyś minęliśmy się na szlaku! Aktualnie poszukuję pracy/stażu w miejscu, które pozwoli mi rozwijać swoje umiejętności oraz karierę. <b>:-)</b>", 
 ".CO ROBIĘ?", 
 "TWORZENIE STRON WWW", 
 "Największe doświadczenia posiadam w pracy z duetem HTML + CSS, do którego coraz chętniej dodaję JavaScript. Posiadam także doświadczenie w projektach opartych o Wordpress. W najbliższym czasie planuję również poszerzenie swoich umiejętności o Node.js, React.js, Bootstrap oraz UI/UX Design.", 
@@ -32,7 +32,7 @@ const en=[".ABOUT ME",
 "As a dog enthusiast and a person who earned extra money in petsitting, I'm aware of the role that a good showcase plays in this industry. Especially in the internet. It was one of the designs that once fell into drawer, but now I'm giving it a chance.", 
 "JS LEARNING", 
 "I'm currently developing towards a better knowledge of JavaScript. The first of the scripts that I am developing that has come into use is implemented on this website. Changing the language dynamically is the first step. The next one is coming!", 
-"NEW WEBPAGE TO STABLE", 
+"NEW WEBPAGE FOR STABLE", 
 "I am working on a simple, clean and easy-to-edit Wordpress site that will allow an elderly person who is not tech-savvy to mark their presence on the web, as well as simply managing the content of this new site.", 
 "All rights reserved © 2022"];
 
