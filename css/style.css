@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     color: #EDEDED;
-    min-width: 1080px;
+    min-width: 1100px;
 }
 
 h1 {
@@ -79,6 +79,7 @@ div.about-me {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 50px;
     text-align: center;
     color: #ff6a00;
   }
@@ -90,9 +91,12 @@ div.about-me-text {
     color: #EDEDED;
 }
 
+div.about-me b {
+    color:#ff6a00;
+}
 
 .whatdo {
-    padding-top: 60px;
+    padding: 60px 0px 40px 0px;
     display: inline;
     margin: auto;
     width: 50%;
@@ -100,39 +104,23 @@ div.about-me-text {
 
 .whatdo h4 {
   text-align: left;
-  margin: 0px 0px 0px 0px;
+  margin: 40px 0px 0px 0px;
 }
 
 .whatdo-content-l {
-  width: 50%px;
+  width: 50%;
   padding: 0px 0px 15px 0px;
-  margin-left: 25%;
-  margin-right: 25%;
-
+  margin-left: 27.50%;
+  margin-right: 27.50%;
 }
 
 .whatdo-content-l img {
     width: 100px;
     height: 100px;
-    margin-right: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
     float: left;
 }
-
-
-.whatdo-content-r {
-    width: 50%px;
-    padding: 0px 0px 15px 0px;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.whatdo-content-r img {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-  float: right;
-}
-
 
 .projects {
     display: flex;
@@ -148,37 +136,72 @@ div.about-me-text {
     margin: auto;
 }
 
+.projects h3 {
+    font-size: 16px;
+}
+
 .projects img{
     width: 300px;
 }
 
+
 .project1 {
     float: left;
     width: 300px;
+    height: 600px;
     text-align: justify;
     margin: 10px 10px 10px;
     padding: 20px 15px 20px;
     background-color: #343433;
+}
+
+.project1:hover {
+    width: 400px;
+    height: 700px;
+}
+
+.project1:hover img{
+    width: 400px;
 }
 
 .project2 {
     float: left;
     width: 300px;
+    height: 600px;
     text-align: justify;
     margin: 10px 10px 10px;
     padding: 20px 15px 20px;
     background-color: #343433;
 }
 
+.project2:hover {
+    width: 350px;
+    height: 700px;
+}
+
+.project2:hover img{
+    width: 350px;
+    
+}
+
 .project3 {
     float: left;
     width: 300px;
+    height: 600px;
     text-align: justify;
     margin: 10px 10px 10px;
     padding: 20px 10px 15px;
     background-color: #343433;
 }
 
+.project3:hover {
+    width: 400px;
+    height: 700px;
+}
+
+.project3:hover img{
+    width: 400px;
+}
 
   .row:after {
     content: "";
