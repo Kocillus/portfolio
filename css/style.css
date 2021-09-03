@@ -30,7 +30,7 @@ h4 {
     margin: 10px;
 }
 
-button {
+.langbuttons {
     width: 32px;
     height: 32px;
     border: none;
@@ -40,13 +40,13 @@ button {
     padding: 0;
 }
 
-button img{
+.langbuttons img{
     width: 32px;
     height: 32px;
     opacity: 50%;
 }
 
-button img:hover{
+.langbuttons img:hover{
     opacity: 100%;
 }
 
@@ -73,6 +73,19 @@ img.socialmedia{
     height: 25px;
     
   }
+
+.cv {
+    margin: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cv img {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
 
 div.about-me {
     background-color: #343433;
